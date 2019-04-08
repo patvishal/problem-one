@@ -1,0 +1,107 @@
+<div class="container">
+  <div class="row navigation">
+    <nav class="navbar navbar-expand-lg">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link glyphicon glyphicon-home" href="#"> Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link glyphicon glyphicon-info-sign" href="#"> About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Menu
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="row header">
+    <div class="col-8">
+        <h1 class="font-weight-bold">Ristorante || Fornello</h1>
+        <p class="description">Simple, fresh ingredients, prepared and cooked with love and passion become truly great dishes, from wood-oven baked Neapolitan style pizzas, to pastas and entrees!</p>
+    </div>    
+  </div>
+
+  <div class="row">
+    <div class="col-8">
+      <h3 class="font-weight-bold">Fichipizza</h3>
+       <p>A unique combination of Mediterranean and Italian pizza, topped with Mascarphone, proscuitto, figs, grando panado, honey, and arugula.</p>
+       <a href="#">More></a>
+    </div>
+    <div class="col-4">
+      <h3 class="font-weight-bold">Our Unique Culinary Creations</h3>
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+      <div class="col-4">
+          <h3 class="font-weight-bold">This Month's promotions</h3>
+      </div>
+      <div class="col-8">
+        <h3 class="font-weight-bold">Weekend Grand Buffet</h3>
+         <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees, and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person.</p>
+         <a href="#">More></a>
+      </div>
+  </div>
+  <hr>
+  <div class="row">
+      <div class="col-8">
+        <h2 class="font-weight-bold">Tommy McHugh</h2>
+        <h3 class="font-weight-bold">Executive Chef</h3>
+         <p>Award winning three-star Michelin chef with wide international experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Mediterranean-Italian experience.</p>
+         <a href="#">More></a>
+      </div>
+      <div class="col-4">
+        <h3 class="font-weight-bold">Meet our Culinary specialists</h3>
+      </div>
+  </div>
+  <hr>
+  <div class="row">
+      <div *ngFor="let menuItem of menuItems">
+        <div class="col-sm">
+          {{ menuItem.name }}
+        </div>
+      </div>
+  </div>
+  <div class="row footer">
+    <div class="col-3">
+      <h3 class="font-weight-bold">Links</h3>
+      <ul>
+       <a href="#"><li>Home</li></a>
+       <a href="#"><li>About</li></a>
+       <a href="#"><li>Menu</li></a>
+       <a href="#"><li>Contact</li></a>
+      </ul>
+    </div>
+    <div class="col-3">
+      <h3 class="font-weight-bold">Our Address</h3>
+      <span>214 King Street West</span><br>
+      <span>Downtown Toronto</span><br>
+      <span>Ontario</span><br>
+      <span class="glyphicon glyphicon-earphone"> 111-222-3333</span><br>
+      <span class="glyphicon glyphicon-envelope"> jane@doe.com</span>
+    </div>
+    <div class="col-6 mt-4">
+        <a href="#" class="fa fa-envelope"></a>                      
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-google-plus"></a>
+    </div>
+    <p class="text-center">Copyright 2015 Ristorella Fornello</p>
+  </div>
+</div>

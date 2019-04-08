@@ -1,0 +1,16 @@
+.footer {
+    margin-top: 100px;
+    background: lightgray;
+    height: 200px;
+}
+
+.header {
+    height: 200px;
+    background: lightskyblue;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.navigation {
+    background: darkblue;
+}

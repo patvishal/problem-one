@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+  
+.the-icons {
+  font-size: 25px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
